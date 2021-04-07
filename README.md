@@ -4,6 +4,7 @@
 A simple Flask application with routing and Jinja templates. Accompanying slides can be found [here](https://docs.google.com/presentation/d/1Ymkpu1PFn1XhtB4pIxzx-fhXnhv8OLi8lvx-xL6YhsE/edit?usp=sharing). Workshop held by the NYU Girls Who Code College Loop Chapter! To reach out with any general questions, please email nyugwc@gmail.com
 
 ## Setup
+*If you want to start this project from scratch ...*
 ### Install Python
 Make sure you have Python downloaded on your device, download it [here](https://www.python.org). It should be Python version 2.7 or newer.
 
@@ -20,13 +21,13 @@ pip install virtualenv
 $ mkdir flask-project
 $ cd flask-project 
 
-$ python3 -m venv env                         # for python3, MacOS, Linux
-$ python -m virtualenv env                    # for python2, MacOS, Linux
+$ python3 -m venv env       # for python3, MacOS, Linux
+$ python -m virtualenv env  # for python2, MacOS, Linux
 $ py -3 -m venv env         # for python3, Windows
 $ py -2 -m virtualenv env   # for python2, Windows
 
-$ source env/bin/activate     # activate env on MacOS, Linux
-$ env\Scripts\activate        # activate env on Windows
+$ source env/bin/activate   # activate env on MacOS, Linux
+$ env\Scripts\activate      # activate env on Windows
 
 $ touch app.py .gitignore README.md requirements.txt
 $ pip install Flask
@@ -42,11 +43,12 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello world!'
 ```
+
 ### Set up app in Terminal:
 ```sh
 $ export FLASK_APP=run.py      # Unix/Mac)
 $ set FLASK_APP=run.py         # Windows
-$ env:FLASK_APP = ".\run.py"  # Powershell
+$ env:FLASK_APP = ".\run.py"   # Powershell
 
 $ export FLASK_ENV=development
 ```
@@ -61,6 +63,15 @@ Then navigate to the localhost the site is running on.
 ```sh
 deactivate
 ```
+
+*If you prefer to use this repository... *
+### Clone this repository
+```sh
+$ git clone https://github.com/rachelombok/Flask-Workshop-GWC.git
+$ cd flask-workshop-gwc
+$ pip install -r requirements.txt
+```
+* ... and follow the previous steps for setting up the environment, and running.
 
 ## Related resources
 * [Flask Workshop Slides](https://docs.google.com/presentation/d/1Ymkpu1PFn1XhtB4pIxzx-fhXnhv8OLi8lvx-xL6YhsE/edit?usp=sharing)
