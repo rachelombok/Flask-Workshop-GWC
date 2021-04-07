@@ -59,7 +59,7 @@ flask run
 ```
 Then navigate to the localhost the site is running on.
 
-## Exiting the virtual environmment
+### Exiting the virtual environmment
 ```sh
 deactivate
 ```
