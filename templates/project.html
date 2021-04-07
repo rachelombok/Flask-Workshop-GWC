@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block bodyblock %}
+<div class="card d-flex align-items-center">
+    <img
+        class="card-img-top mycard"
+        src="{{ url_for('static', filename=project.imgfile, width=300) }}"
+        alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title"><b>{{ project.title|replace("-", " ") }}</b></h5>
+        <p class="card-text">{{ project.description }}</p>
+
+        
+        <div class="d-flex flex-wrap">
+            {% if project.website %}
+                <a
+                    href="{{ project.website }}"
+                    target="_blank"
+                    class="card-link"
+                ><i class="fas fa-globe"></i> Website</a>
+            {% endif %}
+            <a
+                href="{{ project.github_url }}"
+                target="_blank"
+                class="card-link"
+            ><i class="fab fa-github"></i> GitHub Repo</a>
+            <a
+                href="/portfolio"
+                class="card-link"
+                id="backlink"
+            ><i class="fas fa-arrow-left"></i> Go Back</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

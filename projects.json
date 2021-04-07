@@ -1,0 +1,30 @@
+{"obj":
+    [
+        {
+            "description": "A fullstack application with React and Flask (JS and Python).",
+            "title": "Fullstack App",
+            "website":"www.google.com",
+            "long_desc": "This is a fullstack project with a React frontend and a Flask backend.",
+            "github_url": "www.github.com",
+            "imgfile":"component.jpg"
+        },
+        {
+            "description": "Ideation project, for creating new projects and material",
+            "title": "Ideation and Design",
+            "website":"www.python.org",
+            "long_desc": "Working on ideation and design,",
+            "github_url": "www.github.com/rahcelombok",
+            "imgfile":"fullstack.png"
+        },
+        {
+            "description": "Ultrahacks project, from UltraHacks Hackathon Fall 2020. ",
+            "title": "UltraHacks",
+            "website":"www.twitter.com",
+            "long_desc": "A hackathon project made with the Twitter API. Using Python, Django and other technologies, we made a autonomous Twitter bot.",
+            "github_url": "www.github.com/twitter",
+            "imgfile":"ultrahacks.jpeg"
+        }
+    ]
+
+
+}
