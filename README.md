@@ -71,7 +71,7 @@ $ git clone https://github.com/rachelombok/Flask-Workshop-GWC.git
 $ cd flask-workshop-gwc
 $ pip install -r requirements.txt
 ```
-* ... and follow the previous steps for setting up the environment, and running.
+*... and follow the previous steps for setting up the environment, and running.
 
 Use this file for your [.gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore)
 
@@ -80,3 +80,8 @@ Use this file for your [.gitignore](https://github.com/github/gitignore/blob/mas
 * [Flask documentation](http://flask.pocoo.org/)
 * [Jinja documentation](http://jinja.pocoo.org/)
 * [Flask extensions](http://flask.pocoo.org/extensions/)
+
+## Extra 
+* [Bootstrap CDN](https://getbootstrap.com)
+* [Font Awesome CDN](https://fontawesome.com/how-to-use/customizing-wordpress/snippets/setup-cdn-webfont)
+
