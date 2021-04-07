@@ -12,7 +12,7 @@ If you do not have pip already installed on your computer, follow [this tutorial
 
 ### Install your Virtual Environment & Flask
 ```sh
-pip install virtualenv    #
+pip install virtualenv   
 ```
 
 ### Create your project directory
