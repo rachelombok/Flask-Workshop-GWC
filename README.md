@@ -64,14 +64,14 @@ Then navigate to the localhost the site is running on.
 deactivate
 ```
 
-*If you prefer to use this repository... *
+*If you prefer to use this repository...*
 ### Clone this repository
 ```sh
 $ git clone https://github.com/rachelombok/Flask-Workshop-GWC.git
 $ cd flask-workshop-gwc
 $ pip install -r requirements.txt
 ```
-*... and follow the previous steps for setting up the environment, and running.
+*... and follow the previous steps for setting up the environment, and running.*
 
 Use this file for your [.gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore)
 
