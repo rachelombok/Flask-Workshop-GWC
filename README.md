@@ -22,8 +22,8 @@ $ cd flask-project
 
 $ python3 -m venv env                         # for python3, MacOS, Linux
 $ python -m virtualenv env                    # for python2, MacOS, Linux
-$ py -3 -m venv <name of environment>         # for python3, Windows
-$ py -2 -m virtualenv <name of environment>   # for python2, Windows
+$ py -3 -m venv env         # for python3, Windows
+$ py -2 -m virtualenv env   # for python2, Windows
 
 $ source env/bin/activate     # activate env on MacOS, Linux
 $ env\Scripts\activate        # activate env on Windows
