@@ -27,6 +27,7 @@ $ py -2 -m virtualenv <name of environment>   # for python2, Windows
 
 $ source env/bin/activate     # activate env on MacOS, Linux
 $ env\Scripts\activate        # activate env on Windows
+
 $ touch app.py .gitignore README.md requirements.txt
 $ pip install Flask
 $ python -m pip freeze > requirements.txt
@@ -46,6 +47,7 @@ def hello_world():
 $ export FLASK_APP=run.py      # Unix/Mac)
 $ set FLASK_APP=run.py         # Windows
 $ env:FLASK_APP = ".\run.py"  # Powershell
+
 $ export FLASK_ENV=development
 ```
 
