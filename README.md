@@ -1,4 +1,4 @@
-# Flask Workshop
+# NYU Girls Who Code Flask Workshop
 
 ## About
 A simple Flask application with routing and Jinja templates. Accompanying slides can be found [here](https://docs.google.com/presentation/d/1Ymkpu1PFn1XhtB4pIxzx-fhXnhv8OLi8lvx-xL6YhsE/edit?usp=sharing). Workshop held by the NYU Girls Who Code College Loop Chapter! To reach out with any general questions, please email nyugwc@gmail.com
