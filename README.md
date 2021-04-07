@@ -73,6 +73,8 @@ $ pip install -r requirements.txt
 ```
 * ... and follow the previous steps for setting up the environment, and running.
 
+Use this file for your [.gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore)
+
 ## Related resources
 * [Flask Workshop Slides](https://docs.google.com/presentation/d/1Ymkpu1PFn1XhtB4pIxzx-fhXnhv8OLi8lvx-xL6YhsE/edit?usp=sharing)
 * [Flask documentation](http://flask.pocoo.org/)
