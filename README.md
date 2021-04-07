@@ -12,21 +12,36 @@ If you do not have pip already installed on your computer, follow [this tutorial
 
 ### Install your Virtual Environment & Flask
 ```sh
-pip install virtualenv
+pip install virtualenv    #
 ```
 
 ### Create your project directory
 ```sh
 $ mkdir flask-project
 $ cd flask-project 
-$ python3 -m venv env
-$ source env/bin/activate
+
+$ python3 -m venv env                         # for python3, MacOS, Linux
+$ python -m virtualenv env                    # for python2, MacOS, Linux
+$ py -3 -m venv <name of environment>         # for python3, Windows
+$ py -2 -m virtualenv <name of environment>   # for python2, Windows
+
+$ source env/bin/activate     # activate env on MacOS, Linux
+$ env\Scripts\activate        # activate env on Windows
 $ touch app.py .gitignore README.md requirements.txt
 $ pip install Flask
 $ python -m pip freeze > requirements.txt
 ```
 
 ### Open your project in your editor and create your basic app
+In your main.py:
+```sh
+from flask import Flask
+app = Flask(__name__)
+@app.route('/')
+def hello_world():
+    return 'Hello world!'
+```
+### Set up app in Terminal:
 ```sh
 $ export FLASK_APP=run.py      # Unix/Mac)
 $ set FLASK_APP=run.py         # Windows
@@ -36,7 +51,6 @@ $ export FLASK_ENV=development
 
 ### Run the application
 ```sh
-source env/bin/activate
 flask run
 ```
 Then navigate to the localhost the site is running on.
